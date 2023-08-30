@@ -1,0 +1,6 @@
+function SayHi()
+  local Message = "My function is working!"
+  print(Message)
+end
+
+SayHi()
