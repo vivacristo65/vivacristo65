@@ -1,0 +1,7 @@
+Message = "My function is working!"
+
+function SayHi()
+  print(Message)
+end
+
+SayHi()
