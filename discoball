@@ -1,0 +1,6 @@
+local Part = script.Parent
+
+while true do
+  wait(0.5)
+  Part.BrickColor = BrickColor.Random()
+end
