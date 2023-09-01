@@ -1,0 +1,16 @@
+local Baseplate = game.Workspace.Baseplate
+
+function TurnRed()
+	Baseplate.BrickColor = BrickColor.new("Really red")
+end
+
+function TurnBlue()
+	Baseplate.BrickColor = BrickColor.new("Really blue")
+end
+
+while true do
+	TurnRed()
+	wait(1)
+	TurnBlue()
+	wait(1)
+end
