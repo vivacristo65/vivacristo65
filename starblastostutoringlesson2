@@ -1,0 +1,7 @@
+local MyPart = script.Parent
+
+function Turn()
+    MyPart.BrickColor = BrickColor.Random()
+end
+
+MyPart.Touched:Connect(Turn)
