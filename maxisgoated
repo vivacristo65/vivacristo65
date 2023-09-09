@@ -1,0 +1,11 @@
+local MyPart = script.Parent
+
+local function displayMessage()
+	local message = Instance.new("Message")
+	message.Text = "max is goated"
+	message.Parent = game.Workspace 
+	wait(2) 
+	message:Destroy()
+end
+
+MyPart.Touched:Connect(displayMessage)
